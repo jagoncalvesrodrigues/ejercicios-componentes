@@ -1,3 +1,4 @@
+import Box from "./components/box/Box";
 import CalculateCircleArea from "./components/calculateCircleArea/calculateCircleArea";
 import CalculateSquareArea from "./components/calculateSquareArea/calculateSquareArea";
 import CalculateTriangleArea from "./components/calculateTriangleArea/calculateTriangleArea";
@@ -21,6 +22,7 @@ const App = () => {
 		<FahrenheitToCelsius farenh={90}/>
 		<TotalPrice price={80}/>
 		<WriteMessage name='Juan' material='Aluminio' size='XL' note='Envio por Galicia'/>
+		<Box/>
 	</>
 	;
 };
